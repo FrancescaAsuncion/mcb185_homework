@@ -1,0 +1,14 @@
+Wed Jan 17 20:08:06 PST 2024
+francescaasuncion
+/Users/francescaasuncion
+/bin/zsh
+/Users/francescaasuncion/code/mcb185_homework
+/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+Darwin campus-099-177.ucdavis.edu 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:17:10 PDT 2022; root:xnu-8020.140.49~2/RELEASE_X86_64 x86_64
+Python 3.11.1
+/Users/francescaasuncion/code
+/Users/francescaasuncion/code/mcb185_homework
+/Users/francescaasuncion/code/mcb185_homework/.git
+/Users/francescaasuncion/code/MCB185
+/Users/francescaasuncion/code/MCB185/.git
+/Users/francescaasuncion/code/MCB185/data
