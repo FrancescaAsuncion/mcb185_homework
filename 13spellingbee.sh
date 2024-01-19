@@ -1,0 +1,1 @@
+gunzip -c ~/code/MCB185/data/dictionary.gz | grep "r" | grep "[oncaiz]" #add {4,something} to get 4 or more
