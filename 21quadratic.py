@@ -15,4 +15,5 @@ def quadratic_formula(a, b, c):
 		return square_1, square_2
 	if discriminant <0: sys.exit('error')
 print(quadratic_formula(1,-3,2))
+print(quadratic_formula(2,-10,4))
 print(quadratic_formula(50,4,2))
