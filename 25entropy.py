@@ -25,5 +25,5 @@ def shannon(A, C, G, T):
 	return entropy
 	
 print(shannon(1,2,3,4))
-print(shannon(0,0,1,0))
 print(shannon(10,20,30,40))
+print(shannon(0,0,1,0))
