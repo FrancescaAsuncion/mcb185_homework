@@ -10,5 +10,5 @@ def test(tp, fp, tn, fn):
 	if precision + recall <=0: "error read"
 	return f1, accuracy
 print(test(1,2,3,4))
-print(test(0, 10, 3, 2))
+print(test(3, 10, 3, 2))
 print(test(4,3,2,1))
