@@ -3,9 +3,14 @@
 #Demonstrate that it works by using the formula multiple times within the program.
 
 import math
+import sys
+
 def quadratic_formula(a, b, c):
+	discriminant = (b**2 - 4*a*c)
+	if discriminant <0: sys.exit('error')
 	roots = math.sqrt(b**2 - 4*a*c)
 	square_1 = (-b + roots) / (2*a)
 	square_2 = (-b - roots) / (2*a)
 	return square_1, square_2
+	
 print(quadratic_formula(50,25,8))
