@@ -6,9 +6,7 @@ Demonstrate that it works by using the formula multiple times within the program
 import math
 def quadratic_formula(a, b, c):
 	roots = math.sqrt(b**2 - 4*a*c)
-	b1 = (-b + roots) / (2*a)
-	b2 = (-b - roots) / (2*a)
-	return roots 
-	return b1 
-	return b2
-print(quadratic_fromula)
+	square_1 = (-b + roots) / (2*a)
+	square_2 = (-b - roots) / (2*a)
+	return roots, square_1, square_2
+print(quadratic_formula)
