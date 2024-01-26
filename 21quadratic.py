@@ -4,8 +4,8 @@
 
 import math
 def quadratic_formula(a, b, c):
-	roots = (math.sqrt(b**2 - 4*a*c))
+	roots = math.sqrt(b**2 - 4*a*c)
 	square_1 = (-b + roots) / (2*a)
 	square_2 = (-b - roots) / (2*a)
-	return roots, square_1, square_2
-print(quadratic_formula(2,3,8))
+	return square_1, square_2
+print(quadratic_formula(50,25,8))
