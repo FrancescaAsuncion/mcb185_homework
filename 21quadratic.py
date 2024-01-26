@@ -8,4 +8,4 @@ def quadratic_formula(a, b, c):
 	square_1 = (-b + roots) / (2*a)
 	square_2 = (-b - roots) / (2*a)
 	return roots, square_1, square_2
-print(quadratic_formula)
+print(quadratic_formula(2,3,8))
