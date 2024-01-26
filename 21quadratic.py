@@ -8,5 +8,7 @@ def quadratic_formula(a, b, c):
 	roots = math.sqrt(b**2 - 4*a*c)
 	b1 = (-b + roots) / (2*a)
 	b2 = (-b - roots) / (2*a)
-	return roots b1 b2
-print(quadratic)
+	return roots 
+	return b1 
+	return b2
+print(quadratic_fromula)
