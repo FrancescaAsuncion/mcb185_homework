@@ -12,5 +12,5 @@ def oligos(A,C,G,T):
 		return Tm
 	else:
 		Tm = 64.9 + 41 * (G + C - 16.4) / (A + T + G + C)
-		Return Tm
+		return Tm
 print(oligos(10,10,10,10))
