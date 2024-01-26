@@ -10,4 +10,4 @@ def quadratic_formula(a, b, c):
 	b2 = (-b - roots) / (2*a)
 	return b1
 	return b2
-	print(quadratic_formula)
+print(quadratic_formula)
