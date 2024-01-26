@@ -6,9 +6,9 @@ def test(tp, fp, tn, fn):
 	recall = tp / (tp + fn)
 	accuracy = (tp + tn) / (tp + fp + fn + tn)
 	f1 = (2 * precision * recall) / (precision + recall)
-	return f1, accuracy
 	if tp <=0: return "error read"
 	if precision + recall <=0: "error read"
+	return f1, accuracy
 print(test(1,2,3,4))
 print(test(0, 10, 3, 2))
 print(test(4,3,2,1))
