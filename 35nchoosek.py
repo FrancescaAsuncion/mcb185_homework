@@ -3,7 +3,7 @@ Create a function that solves "n choose k": n! / k!(n - k)! and
 demonstrate that it works by calling it multiple times with several values of n and k. 
 It's more fun to reuse your factorial function than math.factorial().
 """
-#check this code
+#done
 
 import math
 def factorial(n):

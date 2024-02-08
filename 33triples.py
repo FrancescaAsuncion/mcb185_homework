@@ -2,8 +2,7 @@
 # For example, 3, 4, 5 is a triple: 3^2 + 4^2 = 5^2. 
 # Hint: all sides, including the hypotenuse, must be an integer.
 
-
-
+#done
 import math
 
 for a in range(1,100):
