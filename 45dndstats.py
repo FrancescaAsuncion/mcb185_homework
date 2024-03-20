@@ -11,7 +11,7 @@ Write a program that determines the average stat value using the various rules b
 3D6x2: roll pairs of six-sided 3 times, taking the maximum each time
 4D6d1: roll 4 six-sided dice, dropping the lowest die roll
 """
-
+#done
 
 import random
 
@@ -55,9 +55,21 @@ print(totals / rolls)
 
 #4D6d1: roll 4 six-sided dice, dropping the lowest die roll
 rolls = 100000
+score = 0
+mini_die = 7
 totals = 0
 
 for i in range(rolls):
+	for i in range(4):
+		r = random.randint(1,6)
+		totals += r
+		if r < mini_die:
+			mini_die = r
+	score = totals - mini_die
+print(score / rolls)
+
+
+"""
 	score = 0 
 	r = 1
 	for d in range(3):
@@ -66,7 +78,6 @@ for i in range(rolls):
 			score += roll
 	totals += score
 print(totals / rolls)
-
-		
+"""	
 		
 
